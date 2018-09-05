@@ -86,6 +86,13 @@ public class Main {
                 a[i] = nextInt();
             return a;
         }
+
+        public long[] nextLongArray(int n) {
+            long[] a = new long[n];
+            for (int i = 0; i < n; i++)
+                a[i] = nextLong();
+            return a;
+        }
  
         public char[] nextCharArray() {
             return nextLine().toCharArray();
